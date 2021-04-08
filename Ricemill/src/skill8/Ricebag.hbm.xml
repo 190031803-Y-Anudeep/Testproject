@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+ <hibernate-mapping>  
+  <class name="skilla8.ricebag" table="RICE">  
+    <id name="id" column=id>
+    </id>  
+      
+     <property name="weight" column="Weigth"></property>  
+     <property name="cost" column="Cost"></property>  
+     <property name="type_of_rice" column="Type_of_rice"></property>  
+            
+  </class>  
+            
+ </hibernate-mapping>
